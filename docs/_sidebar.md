@@ -1,9 +1,12 @@
-- 安装PHP环境
+- 序
+  - [Glory 介绍](/start/introduce)
 
-   - [Windows安装PHP](/php/windows)
-   - [Mac安装PHP](/php/mac)
+- 安装环境
 
-- 脚本
+  - [Windows 安装 PHP](/environment/windows-install-php)
+  - [Windows 安装 VC++ 库](/environment/windows-install-vc++)
+
+- 安装脚本
 
   - [安装脚本](/script/install)
   - [基础配置](/script/setting)

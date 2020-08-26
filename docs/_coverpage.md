@@ -9,7 +9,7 @@
 - More...
 
 [更新日志](/other/update)
-[开始阅读](/README)
+[开始阅读](/start/introduce)
 
 <!-- ![](_media/background.jpg) -->
 
