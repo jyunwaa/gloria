@@ -8,7 +8,7 @@
 - Account freezing and cookie invalidation detection.
 - More...
 
-[更新日志](/UPDATE)
+[更新日志](/other/update)
 [开始阅读](/README)
 
 <!-- ![](_media/background.jpg) -->

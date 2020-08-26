@@ -13,3 +13,7 @@
 
   - [配置](/comment/setting)
   - [运行](/comment/execute)
+
+- 其他
+
+  - [更新日志](/other/update)
