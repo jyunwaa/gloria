@@ -16,6 +16,7 @@
 
   - [配置](/comment/setting)
   - [运行](/comment/execute)
+  - [计划任务](/comment/execute)
 
 - 其他
 
