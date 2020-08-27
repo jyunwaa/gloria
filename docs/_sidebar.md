@@ -1,10 +1,6 @@
 - 序
   - [Glory 介绍](/start/introduce)
-
-- 安装环境
-
-  - [Windows 安装 PHP](/environment/windows-install-php)
-  - [Windows 安装 VC++ 库](/environment/windows-install-vc++)
+  - [浅析微博机制](/start/weibo)
 
 - 安装脚本
 
@@ -20,4 +16,5 @@
 
 - 其他
 
+  - [Emoji](/other/emoji)
   - [更新日志](/other/update)

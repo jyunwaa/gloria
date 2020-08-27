@@ -1,6 +1,6 @@
 ![logo](_media/logo.png)
 
-# Glory <small>1.0.1</small>
+# Glory <small>1.0.0</small>
 
 > Free your hands from now on.
 
