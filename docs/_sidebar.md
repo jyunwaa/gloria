@@ -12,7 +12,15 @@
 
   - [配置](/comment/setting)
   - [运行](/comment/execute)
-  - [计划任务](/comment/execute)
+  - [命令](/comment/command)
+
+- 转发
+
+  - [配置](/forward/setting)
+
+- 点赞
+
+  - [配置](/like/setting)
 
 - 其他
 
