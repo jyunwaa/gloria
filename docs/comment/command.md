@@ -69,6 +69,34 @@ glory comment:add --help
 
 ## comment:alter
 
+> 该命令为修改评论任务命令，支持八个参数：
+
+```cmd
+--task_id        必须，任务ID
+--weibo_id       可选，微博ID
+--comment_id     可选，评论ID
+--comment_sign   可选，评论标识
+--interval       可选，每条评论间隔时间，单位：秒
+--sleep          可选，每轮休息时间，单位：秒
+--round          可选，轮数
+--remark         可选，备注
+```
+
+`--task_id`为必须，因为我们需要制定需要修改的任务，七个可修改项为可选参数，比如我们修改评论标识为`989898`和备注为`新歌博`，如图：
+
+![](https://p.pstatp.com/origin/137a30001d00320232436)
 
 ## comment:run
 
+> 该命令为运行评论任务命令，支持五个参数：
+
+```cmd
+--task_id        必须，任务ID
+--weibo_id       可选，微博ID
+--comment_id     可选，评论ID
+--comment_sign   可选，评论标识
+--interval       可选，每条评论间隔时间，单位：秒
+--sleep          可选，每轮休息时间，单位：秒
+--round          可选，轮数
+--remark         可选，备注
+```
