@@ -3,13 +3,13 @@
 百度网盘下载链接：
 
 ```
-https://pan.baidu.com/s/1JrUeygDIYFqUPhLTc-l3zQ
+https://pan.baidu.com/s/1_QP5fGwVePQNBXQzDdR00w
 ```
 
 提取码：
 
 ```
-217g
+iguf
 ```
 
 ## 解压安装
