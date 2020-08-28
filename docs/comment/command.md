@@ -26,7 +26,7 @@ glory comment:add --help
 
 ## comment:add
 
-该命令为添加评论任务命令，支持七个参数：
+> 该命令为添加评论任务命令，支持七个参数：
 
 ```cmd
 --weibo_id       必须，微博ID
@@ -46,11 +46,29 @@ glory comment:add --help
 
 ![](https://p.pstatp.com/origin/fef600029fba43f5a674)
 
+
+## comment:view
+
+> 该命令为查看评论任务命令。
+
+执行该命令，查看所有评论任务，如图：
+
+![](https://p.pstatp.com/origin/ff7c000229d536345409)
+
 ## comment:delete
+
+> 该命令为删除评论任务命令，支持一个参数：
+
+```cmd
+--task_id       必须，任务ID
+```
+
+首先查看所有任务，记住需要删除的任务的`TaskID`，然后执行该命令，如图：
+
+![](https://p.pstatp.com/origin/137d80000efc5df38cf2e)
 
 ## comment:alter
 
-## comment:view
 
 ## comment:run
 
