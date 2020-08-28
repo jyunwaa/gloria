@@ -90,7 +90,7 @@ https://weibo.cn/
 按下回车，在弹出的命令行窗口中输入：
 
 ```cmd
-glory account:vew
+glory account:view
 ```
 
 按下回车，如图：
