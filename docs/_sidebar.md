@@ -13,6 +13,7 @@
   - [配置](/comment/setting)
   - [运行](/comment/execute)
   - [命令](/comment/command)
+  - [批处理](/comment/batch)
 
 - 转发
 
