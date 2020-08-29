@@ -18,10 +18,16 @@
 - 转发
 
   - [配置](/forward/setting)
+  - [运行](/forward/execute)
+  - [命令](/forward/command)
+  - [批处理](/forward/batch)
 
 - 点赞
 
   - [配置](/like/setting)
+  - [运行](/like/execute)
+  - [命令](/like/command)
+  - [批处理](/like/batch)
 
 - 其他
 
