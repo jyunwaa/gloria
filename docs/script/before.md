@@ -37,3 +37,23 @@ https://pan.cccyun.cc/down.php/3b9e72ddd83b0ff4a8db3f1cca8b2ec4.exe
 ```url
 https://pan.cccyun.cc/down.php/1bd43ba2e242af6083444f4d7ee58a18.exe
 ```
+
+## 安装 WinRAR
+
+解压工具。
+
+下载地址：
+
+```url
+http://www.winrar.com.cn/
+```
+
+## 查看系统类型
+
+同时按下`Win`+`R`，输入`control system`，回车，即可看到操作系统类型，主要是看自己是 64 位还是 32 位。
+
+## 打开显示文件扩展名（后缀）
+
+Windows10：https://jingyan.baidu.com/article/5553fa8284747865a2393492.html
+
+Windows7：https://jingyan.baidu.com/article/37bce2beb8236a1003f3a24d.html
