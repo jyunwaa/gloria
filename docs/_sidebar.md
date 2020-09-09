@@ -9,27 +9,24 @@
   - [账号管理](/script/account)
 
 - 评论
-
-  - [配置](/comment/setting)
-  - [运行](/comment/execute)
+  - [文案管理](/comment/content)
+  - [话题管理](/comment/topic)
+  - [任务管理](/comment/task)
   - [命令](/comment/command)
   - [批处理](/comment/batch)
 
 - 转发
-
   - [配置](/forward/setting)
   - [运行](/forward/execute)
   - [命令](/forward/command)
   - [批处理](/forward/batch)
 
 - 点赞
-
   - [配置](/like/setting)
   - [运行](/like/execute)
   - [命令](/like/command)
   - [批处理](/like/batch)
 
 - 其他
-
   - [Emoji](/other/emoji)
   - [更新日志](/other/update)
