@@ -1,11 +1,11 @@
 - 序
   - [Glory 介绍](/start/introduce)
-  - [浅析微博机制](/start/weibo)
 
-- 安装脚本
-
+- 脚本
+  - [前置操作](/script/before)
   - [安装脚本](/script/install)
   - [基础配置](/script/setting)
+  - [后台管理](/script/admin)
   - [账号管理](/script/account)
 
 - 评论

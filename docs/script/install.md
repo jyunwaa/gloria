@@ -30,20 +30,14 @@ iguf
 
 ```
 Glory
-├─identities
-│  ├─帐号一.txt
-│  ├─帐号二.txt
-│  └─...
 ├─src
 │
 ├─glory.bat
-├─random_comments.txt
-└─random_forwards.txt
+├─server.bat
+├─comment.bat
+├─forward.bat
+└─like.bat
 ```
-
-### identities
-
-账号身份信息目录，如何配置见后续教程。
 
 ### src
 
@@ -53,11 +47,18 @@ Glory
 
 启动文件，请勿修改。
 
-### random_comments.txt
+### server.bat
 
-随机评论文件，如何配置见后续教程。
+管理后台服务启动文件。
 
-### random_forwards.txt
+### comment.bat
 
-随机转发文件，如何配置见后续教程。
+评论批处理脚本。
 
+### forward.bat
+
+转发批处理脚本。
+
+### like.bat
+
+点赞批处理脚本。

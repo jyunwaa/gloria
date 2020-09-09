@@ -1,102 +1,51 @@
-## 管理方式
-
-所有账号的Cookie保存在`Glory/identities`文件夹中，每个账号以`账号名称.txt`命名，以文本文档的形式存在，文件内容是账号的Cookie。
-
-每新增或者删除一个账号只需新建一个文件或者删除对应的文件即可。
-
-`identities`文件夹的目录结构：
-
-```
-Glory
-├─identities
-│  ├─帐号一.txt
-│  ├─帐号二.txt
-│  ├─...
-├─...
-```
-
-## Cookie
-
-简单来说，可以把cookie看作是每个账号登陆后获得的唯一的身份信息，每次向新浪发出请求时，都会附带上cookie，新浪的服务器因此也能识别出具体的用户。
-
 ## 获取 Cookie
 
-### 登录新浪
+Chrome 打开无痕窗口。
 
-浏览器输入：
+打开方式一，点击 Chrome 地址栏末端的三点图标，打开新的无痕窗口，如图：
 
-```
-https://weibo.cn/
-```
+![](https://p.pstatp.com/origin/1373500019341fc327d3a)
 
-如图：
+打开方式二，打开开始菜单，右击 Google Chrome 图标，打开新的无痕出口，如图：
 
-![](https://p.pstatp.com/origin/1380200010bcce54abaa4)
+![](https://p.pstatp.com/origin/ff3b000324d4b9b92dbc)
 
-点击登录，输入账号密码，登陆新浪微博。
+打开方式三，右击任务栏的 Chrome 图标，打开新的无痕窗口，如图：
 
-有可能会跳转到如图页面：
+![](https://p.pstatp.com/origin/fe8600031039938a249b)
 
-![](https://api.superbed.cn/static/images/2020/08/27/5f479abc160a154a67635ac2.jpg)
+> 1.使用无痕窗口的目的是无需手动清理 Cookie，直接关闭无痕窗口即可，下次打开新的无痕窗口与上一次打开的无痕窗口不会有任何联系，也不会与普通窗口有任何联系。
 
-如果跳转到该页面，则再次手动输入刚才的地址，如图：
+> 2.没有必要同时打开多个无痕窗口，因为若多个无痕窗口共存，则它们之间的 cookie 是共享的。
 
-![](https://p.pstatp.com/origin/febf0002785510a6cd7a)
+地址栏输入：`https://m.weibo.cn`，登录账号（小号），登录成功后如图：
 
-若登陆成功，则该页面会显示自己的信息，如上图：账号名为`GEM迷183003`。
+![](https://p.pstatp.com/origin/fe82000244ac40399f8e)
 
-### 复制 Cookie
+按下`F12`，或者同时按下`Ctrl + Shift + I`，进入开发者工具模式。
 
-此时按下`F12`，进入开发者选项，点击`Network`，如图：
+点击`Network`，按`F5`刷新网页，如图：
 
-![](https://p.pstatp.com/origin/fea20002cdab7b52d93f)
+![](https://p.pstatp.com/origin/1380f00027b077d532fde)
 
-按`F5`刷新网页，如图：
+在资源列表里找到`⚙ m.weibo.cn`，点进去，点击`Headers`，下拉找到`cookie`，复制划线内容，如图：
 
-![](https://p.pstatp.com/origin/13778000165ad193a8192)
+![](https://p.pstatp.com/origin/1384f00004cb4c05b6a54)
 
-如上图，点击`weibo.cn`，再点击`Headers`，找到`cookie`，然后复制划蓝线的部分（已打码）。
+## 添加小号
 
-## 添加账号
+进入后台，`账号管理`>`小号列表`，如图：
 
-打开`Glory/identities`文件夹，新建文件`GEM迷183003.txt`（这里的文件名根据自身实际情况更改，不一定必须和微博名相同，注意后缀`.txt`必须有），如图：
+![](https://p.pstatp.com/origin/137f800011315ff2b93f2)
 
-![](https://p.pstatp.com/origin/1379f0000dbeb4d9e4188)
+点击右上角`+ New`按钮，如图：
 
-打开`GEM迷183003.txt` 将刚才复制的 cookie 粘贴进去，`Ctrl` + `S` 保存，如图：
+![](https://p.pstatp.com/origin/138590000610fb5a1869f)
 
-![](https://p.pstatp.com/origin/ffe40002668fe870f5ed)
+输入账号名称，输入上一个步骤复制的 cookie，点击`Submit`提交，如图：
 
-## 退出账号
+![](https://p.pstatp.com/origin/137240001803f0a455f0a)
 
-因为我们往往不止有一个账号，所以需要获取多个账号的 cookie，但是前一个账号登陆后需要退出，此时不能点击首页的`退出`链接，这个链接会使 cookie 立马失效，我们需要通过手动清除浏览器的 cookie 的方式进行退出。
+这样我们就能在小号列表中看到我们的帐号了，如图：
 
-保持刚才的开发者选项，点击`Application`，找到`Storage`下的`Cookies`，右击`https://weibo.cn`，点击`Clear`，如图：
-
-![](https://p.pstatp.com/origin/1389a0000055cb2d0498d)
-
-按`F12`退出开发者选项，再按`F5`刷新网页，登陆状态已经消失，如图：
-
-![](https://p.pstatp.com/origin/ffe30002cad77a7144b9)
-
-> Cookie 的有效期一般在一个月以上。
-
-## 查看所有账号
-
-进入`Glory`文件夹，地址栏输入`cmd`，如图：
-
-![](https://p.pstatp.com/origin/1383300009a39d90a81a4)
-
-按下回车，在弹出的命令行窗口中输入：
-
-```cmd
-glory account:view
-```
-
-按下回车，如图：
-
-![](https://p.pstatp.com/origin/1372100018c17f8306aad)
-
-注意每个帐号的`AccountID`，它在执行命令时用于指定账号，此外，在`Glory/identities`文件夹内部发生变化时它可能会变化。
-
-
+![](https://p.pstatp.com/origin/ff8300028c56425842b8)
