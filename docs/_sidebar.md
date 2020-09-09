@@ -12,7 +12,7 @@
   - [文案管理](/comment/content)
   - [话题管理](/comment/topic)
   - [任务管理](/comment/task)
-  - [命令](/comment/command)
+  - [运行任务](/comment/execute)
   - [批处理](/comment/batch)
 
 - 转发
