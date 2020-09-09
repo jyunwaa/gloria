@@ -1,27 +1,25 @@
-## 简单运行
+在`Glory`目录中点击地址栏，输入`cmd`，如图：
 
-在`Glory`目录中打开命令行窗口，输入命令（根据自身实际情况做更改）：
+![](https://p.pstatp.com/origin/138010000c4c7c0b76b41)
+
+回车，打开 cmd 窗口（也叫`控制台`或`命令行窗口`），如图：
+
+![](https://p.pstatp.com/origin/1385a0000c9745e24016d)
+
+输入命令（任务 ID 和账号 ID 根据自身实际情况做更改）：
 
 ```cmd
-glory forward:run --task_id=1 --account_id=1
+glory forward:run --task_id=3 --account_id=16
 ```
 
 按下回车，如图：
 
-![](https://p.pstatp.com/origin/fe210002acd173b7e789)
+![](https://p.pstatp.com/origin/fe2c0002c24d76038260)
 
-等待执行完成。
+等待提示频繁，本轮执行结束，如图：
 
-然后我们打开 **微博国际版**，你的可能是 微博极速版，然而这不重要，重要的是我们点开个人主页，可以看到我们通过脚本转发的微博。
+![](https://p.pstatp.com/origin/10001000284eefdd313f6)
 
-![](https://p.pstatp.com/origin/1377d000122363233bed9)
+然后我们打开 **微博**，点开相关页面，我们通过脚本转发的微博已赫然在列。
 
-但是具体转发了多少条我们也不知道，所以我们查看一下`GEM迷183007`的主页，如图：
-
-![](https://p.pstatp.com/origin/fff5000217e7ce2e09e1)
-
-哦，原来被转发了29次。
-
-## 复杂运行
-
-参考下一章节`转发`>`命令`>`运行命令`。
+![](https://p.pstatp.com/origin/fef100022298ae367826)

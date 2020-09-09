@@ -16,16 +16,11 @@
   - [批处理](/comment/batch)
 
 - 转发
-  - [配置](/forward/setting)
-  - [运行](/forward/execute)
-  - [命令](/forward/command)
+  - [文案管理](/forward/content)
+  - [话题管理](/forward/topic)
+  - [任务管理](/forward/task)
+  - [运行任务](/forward/execute)
   - [批处理](/forward/batch)
-
-- 点赞
-  - [配置](/like/setting)
-  - [运行](/like/execute)
-  - [命令](/like/command)
-  - [批处理](/like/batch)
 
 - 其他
   - [Emoji](/other/emoji)
