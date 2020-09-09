@@ -49,3 +49,49 @@ Chrome 打开无痕窗口。
 这样我们就能在小号列表中看到我们的帐号了，如图：
 
 ![](https://p.pstatp.com/origin/ff8300028c56425842b8)
+
+## 其他操作
+
+修改账号信息，点击`Action`栏操作按钮（三点），点击`Eidt`修改该账号的信息，如图：
+
+![](https://p.pstatp.com/origin/fee10002b75dc93850ed)
+
+---
+
+删除账号，点击`Action`栏操作按钮（三点），点击`Delete`删除该账号，如图：
+
+![](https://p.pstatp.com/origin/138380000aa10b7bd7e55)
+
+---
+
+## 批量导入与导出
+
+批量导入：
+
+新建 Excel 文档，在第一个 sheet 里面以如图格式输入各账号的信息：
+
+![](https://p.pstatp.com/origin/1000b00031706baec6606)
+
+注意第一行必须为`name`、`cookie`、`comment_times`、`forward_times`和`like_times`，其中除了`name`和`cookie`，其余都填`0`。
+
+最后点击`导入账号`按钮，选择 Excel 文件，Submit 提交即可，如图：
+
+![](https://p.pstatp.com/origin/1384400011bf7d25de99d)
+
+稍等两秒，可以看到 Excel 中的账号已经被成功导入，如图：
+
+![](https://p.pstatp.com/origin/1376e0000ff78caf3f064)
+
+---
+
+批量导出：
+
+点击右上角`Export`按钮即可导出所有账号：
+
+![](https://p.pstatp.com/origin/1371d000340ed0b5dab09)
+
+也可点击下拉按钮，手动选择导出当前页账号或者指定账号，如图：
+
+![](https://p.pstatp.com/origin/1380300011d035b2799e0)
+
+> 导出的 Excel 文档的格式和导入应该保持的格式不出意外是一致的，可以直接用于导入，因此导出功能也相当于备份。
